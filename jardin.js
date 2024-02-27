@@ -1,5 +1,4 @@
 let colorSeleccionado;
-// let circle;
 let coloresDisponibles = ["green", "blue", "red", "yellow", "orange", "pink", "saddlebrown", "black", "blueviolet", "grey"];
 
 let coloresParaSeleccion = coloresDisponibles.slice();
