@@ -87,8 +87,8 @@ function borrarColor(color, elemento) {
             if (coloresParaSeleccion.length === 0) {
                 $("#btnEscuchar").hide();
                 Swal.fire({
-                    title: "Buen trabajo",
-                    text: "Sigue practicando.",
+                    title: "Felicidades",
+                    text: "Identificastes todos los colores.",
                     icon: "success"
                   });             
             }            
