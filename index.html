@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Escoger color</title>
+</head>
+<h1>Escoge el color correcto</h1>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css" rel="stylesheet">
+
+<body
+    style="background-image: url('imagenes/Fondo.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+    <div class="fondo_juego">
+        <div class="juego">
+            <div class="letras">
+                <div class="divJuego active">Escucha el color y escogelo hasta encontrar todos los colores.</div>
+            </div>
+            <div class="audios">
+                <audio id="greenAudio" preload="auto">
+                    <source src="audios/green.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="blueAudio" preload="auto">
+                    <source src="audios/blue.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="redAudio" preload="auto">
+                    <source src="audios/red.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="yellowAudio" preload="auto">
+                    <source src="audios/yellow.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="orangeAudio" preload="auto">
+                    <source src="audios/orange.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="pinkAudio" preload="auto">
+                    <source src="audios/pink.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="saddlebrownAudio" preload="auto">
+                    <source src="audios/saddlebrown.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="blackAudio" preload="auto">
+                    <source src="audios/black.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="bluevioletAudio" preload="auto">
+                    <source src="audios/blueviolet.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="greyAudio" preload="auto">
+                    <source src="audios/grey.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="btn" id="btnEscuchar">Escuchar</div>
+        <div class="btn" id="btnRepetir">Repetir</div>
+    </div>
+
+
+    </div>
+</body>
+<script src="jardin.js"></script>
+<!-- By David Chara -->
+</html>
