@@ -37,15 +37,15 @@ function crearCuerpo() {
     for (let i = 0; i < 10; i++) {
         let circle = document.createElement("div"); 
         circle.className = colores[i]; 
+        circle.classList.add("colores");
         circle.style.cursor = "pointer";
         circle.style.borderRadius = "50%";
         circle.style.width = "140px";
         circle.style.height = "140px";
         circle.style.backgroundColor = colores[i];
 
-        circle.addEventListener("click", function() {
-            let flagColor = this.getAttribute("class"); 
-            borrarColor(flagColor, this); 
+        circle.addEventListener("click", function() {            
+            borrarColor(colores[i], this); 
         });
 
         contenedorColores.appendChild(circle);
